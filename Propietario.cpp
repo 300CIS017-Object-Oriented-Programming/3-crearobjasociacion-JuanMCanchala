@@ -1,21 +1,36 @@
 //
 // Created by lufe y Gonzo Feb2024.
 //
+// Estudiante: Juan Canchala 
+// Codigo: 8983809
+// Materia: Programación Orientada a Objetos
+
 
 #include "Propietario.h"
+#include <iostream>
 
-//TODO Agrege el constructor por defecto y agrege un constructor con dos parametros
+using namespace std;
 
+void Propietario::mostrarInfo() {
+    cout << "Nombre: " << nombre << endl;
+    cout << "Documento de identidad: " << docIdentidad << endl;
+    cout << "Edad: " << edad << endl;
+}
 
-Propietario::Propietario(std::string nombre, std::string docIdentidad) {
+Propietario::Propietario(string nombre, string docIdentidad, int edad) {
  this->nombre = nombre;
  this->docIdentidad = docIdentidad;
+ this->edad = 0;
 }
-
-std::string Propietario::getNombre()  {
+string Propietario::getNombre()  {
     return nombre;
 }
-
-void Propietario::setNombre(std::string nombre) {
+void Propietario::setEdad(int edad) {
+    this->edad = edad;
+}
+void Propietario::setNombre(string nombre) {
     this->nombre = nombre;
+}
+int Propietario::getEdad() {
+    return edad;
 }
