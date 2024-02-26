@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Ehhwtx4P)
 # Ejercicio
 
 ## Constructores
@@ -53,15 +54,3 @@ la asociación
 6. Pruebe imprimiendo información del objeto Firualais, mostrando detalles de su raza como el nombre y el pais de origen.
 7. Con lo visto hasta ahora (de UML), elabore el diagrama de clases para el proyecto actual con las nuevas clases y relaciones surgidas. Agregue la imagen de su diagrama a la carpeta doc de su proyecto (repositorio).
 
-### PARTE 4
-
-## Consultas para la siguiente sesión
-### Contenedores e iteradores
-Investigue sobre los siguientes temas:
-* ¿Qué es un contenedor en C++?
-* Tipos de contenedores en C++, incluyendo: vector, list, deque, array, map, etc. En qué casos usar cada uno?
-* Propósito de los contenedores en C++
-* Características comunes de los contenedores: tamaño, forma de almacenamiento( contigua o aleatoria), modificabilidad.
-* ¿Qué es un iterador?
-* Uso de los iteradores con los contenedores estándar en C++: recorrido, acceso a elementos, etc.
-* Funciones y métodos de los contenedores y iteradores en C++: push_back(), pop_back(), begin(), end(), find().
